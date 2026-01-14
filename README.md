@@ -1,8 +1,6 @@
 
 # **8051 MICROCONTROLLER - I/O PORT CONFIGURATION USING BITWISE PROGRAMMING**
 
-Here are badges for your 8051 Microcontroller I/O Port Configuration project:
-
 [![8051 Microcontroller](https://img.shields.io/badge/8051-Microcontroller-blue.svg)](https://en.wikipedia.org/wiki/Intel_8051)
 [![Embedded Systems](https://img.shields.io/badge/Embedded-Systems-green.svg)](https://en.wikipedia.org/wiki/Embedded_system)
 [![Bitwise Programming](https://img.shields.io/badge/Bitwise-Programming-orange.svg)](https://en.wikipedia.org/wiki/Bitwise_operation)
