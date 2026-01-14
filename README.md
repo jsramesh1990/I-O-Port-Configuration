@@ -1,6 +1,20 @@
 
 # **8051 MICROCONTROLLER - I/O PORT CONFIGURATION USING BITWISE PROGRAMMING**
 
+Here are badges for your 8051 Microcontroller I/O Port Configuration project:
+
+[![8051 Microcontroller](https://img.shields.io/badge/8051-Microcontroller-blue.svg)](https://en.wikipedia.org/wiki/Intel_8051)
+[![Embedded Systems](https://img.shields.io/badge/Embedded-Systems-green.svg)](https://en.wikipedia.org/wiki/Embedded_system)
+[![Bitwise Programming](https://img.shields.io/badge/Bitwise-Programming-orange.svg)](https://en.wikipedia.org/wiki/Bitwise_operation)
+[![I/O Port Configuration](https://img.shields.io/badge/I_O-Port%20Config-yellow.svg)](https://en.wikipedia.org/wiki/Input/output)
+[![Embedded C](https://img.shields.io/badge/Embedded-C-red.svg)](https://en.wikipedia.org/wiki/Embedded_C)
+[![Keil µVision](https://img.shields.io/badge/Toolchain-Keil%20µVision-blueviolet.svg)](https://www.keil.com/)
+[![Hardware Programming](https://img.shields.io/badge/Hardware-Programming-purple.svg)](https://en.wikipedia.org/wiki/Computer_hardware)
+[![LED Patterns](https://img.shields.io/badge/LED-Patterns-ff69b4.svg)](https://en.wikipedia.org/wiki/Light-emitting_diode)
+[![Button Interfacing](https://img.shields.io/badge/Button-Interfacing-009688.svg)](https://en.wikipedia.org/wiki/Push-button)
+[![Educational](https://img.shields.io/badge/Educational-Project-8b0000.svg)](https://en.wikipedia.org/wiki/Educational_technology)
+[![Low-Level Programming](https://img.shields.io/badge/Low--Level-Programming-lightgrey.svg)](https://en.wikipedia.org/wiki/Low-level_programming_language)
+
 ## **PROJECT OVERVIEW**
 This project demonstrates how to configure and control 8051 microcontroller I/O ports using bitwise operations in C language. It covers fundamental concepts of embedded programming including port initialization, input reading, output control, and practical applications like LED patterns and button interfacing.
 To develop a C language program to configure an I/O port using bitwise programming techniques on 8051 microcontroller.
