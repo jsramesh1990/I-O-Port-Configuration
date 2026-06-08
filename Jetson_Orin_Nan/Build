@@ -1,0 +1,15 @@
+# Clone repository
+git clone https://github.com/yourusername/jetson-orin-nano-cpp.git
+cd jetson-orin-nano-cpp
+
+# Create build directory
+mkdir build && cd build
+
+# Configure with CMake
+cmake .. -DCMAKE_BUILD_TYPE=Release
+
+# Build library
+make -j$(nproc)
+
+# Install system-wide (optional)
+sudo make install

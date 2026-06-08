@@ -1,0 +1,65 @@
+## Prerequisites
+
+```bash
+# Update system
+sudo apt update && sudo apt upgrade -y
+
+# Install build tools
+sudo apt install -y build-essential cmake git
+
+# Install development libraries
+sudo apt install -y libgpiod-dev libi2c-dev libspdlog-dev
+
+
+###Setup Permissions
+
+# Run setup script
+sudo ./scripts/setup_permissions.sh
+
+# Add user to required groups
+sudo usermod -a -G gpio,i2c,dialout $USER
+
+
+###scripts and tests provide
+
+setup_permissions.sh - Configures system permissions, udev rules, groups, and kernel modules for all peripherals
+
+configure_pins.sh - Interactive pin mux configuration tool for UART, SPI, I2C, PWM, and camera interfaces
+
+test_all_peripherals.sh - Comprehensive test suite covering GPIO, UART, SPI, I2C, PWM, Ethernet, USB, PCIe, CAN, Camera, and M.2
+
+test_gpio.cpp - Tests GPIO basic I/O, interrupts, and performance
+
+test_uart.cpp - Tests UART communication, baud rates, async reads, and flow control
+
+test_spi.cpp - Tests SPI transfers, modes, speeds, and ADC sensor
+
+test_i2c.cpp - Tests I2C bus scanning, read/write, SMBus, and BME280 sensor
+
+test_pwm.cpp - Tests PWM frequency, duty cycle, fading, servo control, and software PWM
+
+###Examples:::
+These 16 example files provide complete, working demonstrations for all peripherals:
+
+    GPIO Examples: LED blinking, button input, interrupt handling
+
+    UART Examples: Echo server, baud rate testing
+
+    RS485 Examples: Modbus RTU master and slave implementations
+
+    SPI Examples: Loopback test, ADC reading (MCP3008)
+
+    I2C Examples: Bus scanner, BME280 sensor reading
+
+    PWM Examples: Servo control, LED dimming with effects
+
+    Ethernet Examples: UDP communication, TCP server/client
+
+    CAN Examples: Frame reception and transmission
+
+    Camera Examples: GStreamer pipeline, V4L2 direct capture
+
+Each example includes detailed comments, error handling, and can be compiled and run directly on the Jetson Orin Nano.
+
+
+

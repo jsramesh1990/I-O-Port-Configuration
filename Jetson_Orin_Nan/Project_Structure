@@ -1,0 +1,90 @@
+jetson-orin-nano-cpp/
+│
+├── README.md
+├── CMakeLists.txt
+├── LICENSE
+│
+├── docs/
+│   ├── architecture.md
+│   ├── gpio.md
+│   ├── uart.md
+│   ├── rs485.md
+│   ├── spi.md
+│   ├── i2c.md
+│   ├── pwm.md
+│   ├── ethernet.md
+│   ├── usb.md
+│   ├── pcie.md
+│   ├── can.md
+│   ├── camera.md
+│   └── m2.md
+│
+├── include/
+│   ├── gpio.hpp
+│   ├── uart.hpp
+│   ├── rs485.hpp
+│   ├── spi.hpp
+│   ├── i2c.hpp
+│   ├── pwm.hpp
+│   ├── ethernet.hpp
+│   ├── usb.hpp
+│   ├── pcie.hpp
+│   ├── can.hpp
+│   ├── camera.hpp
+│   └── m2.hpp
+│
+├── src/
+│   ├── gpio.cpp
+│   ├── uart.cpp
+│   ├── rs485.cpp
+│   ├── spi.cpp
+│   ├── i2c.cpp
+│   ├── pwm.cpp
+│   ├── ethernet.cpp
+│   ├── usb.cpp
+│   ├── pcie.cpp
+│   ├── can.cpp
+│   ├── camera.cpp
+│   └── m2.cpp
+│
+├── examples/
+│   ├── gpio/
+│   │   ├── gpio_blink.cpp
+│   │   ├── gpio_input.cpp
+│   │   └── gpio_interrupt.cpp
+│   ├── uart/
+│   │   ├── uart_echo.cpp
+│   │   └── uart_baudrate_test.cpp
+│   ├── rs485/
+│   │   ├── rs485_master.cpp
+│   │   └── rs485_slave.cpp
+│   ├── spi/
+│   │   ├── spi_loopback.cpp
+│   │   └── spi_adc_read.cpp
+│   ├── i2c/
+│   │   ├── i2c_scan.cpp
+│   │   └── i2c_sensor_read.cpp
+│   ├── pwm/
+│   │   ├── pwm_servo.cpp
+│   │   └── pwm_led.cpp
+│   ├── ethernet/
+│   │   ├── ethernet_udp.cpp
+│   │   └── ethernet_tcp.cpp
+│   ├── can/
+│   │   ├── can_receive.cpp
+│   │   └── can_transmit.cpp
+│   └── camera/
+│       ├── camera_gstreamer.cpp
+│       └── camera_v4l2.cpp
+│
+├── scripts/
+│   ├── setup_permissions.sh
+│   ├── configure_pins.sh
+│   └── test_all_peripherals.sh
+│
+└── tests/
+    ├── test_gpio.cpp
+    ├── test_uart.cpp
+    ├── test_spi.cpp
+    ├── test_i2c.cpp
+    └── test_pwm.cpp
