@@ -10,7 +10,17 @@
 
 A comprehensive, production-ready C++ library for interfacing with all hardware peripherals on the NVIDIA Jetson Orin Nano developer kit. Designed for industrial automation, robotics, and embedded systems applications.
 
-## 📋 Table of Contents
+## Complete Jetson Orin Nano Running Flow
+
+The following animation shows the complete execution flow from Jetson Orin Nano boot to the C++ application and hardware peripheral access.
+
+<p align="center">
+  <img src="images/jetson_orin_nano_flow_animation.gif" 
+       alt="Jetson Orin Nano Complete Flow"
+       width="900">
+</p>
+
+##  Table of Contents
 
 - [Overview](#overview)
 - [Hardware Specifications](#hardware-specifications)
